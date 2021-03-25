@@ -11,9 +11,8 @@ layout: page
                         <h1>About Company</h1>
                     </div>
                     <ul class="bread-crumb clearfix">
-                        <li><a href="index-2.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>About</li>
-                        <li>Company</li>
                     </ul>
                 </div>
             </div>
@@ -69,11 +68,7 @@ layout: page
                                         <p>Nor again is there anyone loves or pursues or desires too.</p>
                                     </div>
                                 </div>
-                                <div class="author-box">
-                                    <figure class="image-box"><img src="assets/images/resource/author-3.jpeg" alt=""></figure>
-                                    <figure class="signature"><img src="assets/images/icons/signature-1.png" alt=""></figure>
-                                    <h5>Tapan Pradhan,<span> Ceo & Founder</span></h5>
-                                </div>
+                                {% include snippets/author.html %}
                             </div>
                         </div>
                     </div>
@@ -153,84 +148,7 @@ layout: page
         <!-- chooseus-style-three end -->
 
 
-        <!-- history-section -->
-        <section class="history-section sec-pad">
-            <div class="auto-container">
-                <div class="sec-title centred">
-                    <div class="top-title">
-                        <div class="shape">
-                            <div class="line line-1"></div>
-                            <div class="line line-2"></div>
-                            <div class="line line-3"></div>
-                            <div class="line line-4"></div>
-                            <div class="bg-shape" style="background-image: url(assets/images/icons/bg-shape.png);"></div>
-                        </div>
-                        <p>Our History</p>
-                    </div>
-                    <h2>Discover the story of blackcats</h2>
-                </div>
-                <div class="history-carousel owl-carousel owl-theme owl-dots-none">
-                    <div class="history-block">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/resource/history-1.jpg" alt=""></figure>
-                            <div class="content-box">
-                                <div class="upper">
-                                    <span>1990’s</span>
-                                    <h3>Company established at newyork</h3>
-                                </div>
-                                <div class="text">
-                                    <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment blinded.</p>
-                                </div>
-                                <ul class="list clearfix">
-                                    <li>Prevents our being able to do what we like best.</li>
-                                    <li>Every pleasure is to welcomed avoided.</li>
-                                    <li>Claims of duty or the obligations of business frequently.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="history-block">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/resource/history-1.jpg" alt=""></figure>
-                            <div class="content-box">
-                                <div class="upper">
-                                    <span>2000’s</span>
-                                    <h3>Company established at newyork</h3>
-                                </div>
-                                <div class="text">
-                                    <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment blinded.</p>
-                                </div>
-                                <ul class="list clearfix">
-                                    <li>Prevents our being able to do what we like best.</li>
-                                    <li>Every pleasure is to welcomed avoided.</li>
-                                    <li>Claims of duty or the obligations of business frequently.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="history-block">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="assets/images/resource/history-1.jpg" alt=""></figure>
-                            <div class="content-box">
-                                <div class="upper">
-                                    <span>2008’s</span>
-                                    <h3>Company established at newyork</h3>
-                                </div>
-                                <div class="text">
-                                    <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment blinded.</p>
-                                </div>
-                                <ul class="list clearfix">
-                                    <li>Prevents our being able to do what we like best.</li>
-                                    <li>Every pleasure is to welcomed avoided.</li>
-                                    <li>Claims of duty or the obligations of business frequently.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- history-section end -->
+       {% include snippets/history.html%}
 
 
         <!-- funfact-section -->
